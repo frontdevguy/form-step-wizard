@@ -1,0 +1,63 @@
+* {
+  marin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(233, 236, 239)
+}
+
+.btn {
+  outline: 0 !important;
+  box-shadow:  0 0 0 0 transparent !important;
+}
+
+.step-container {
+  background: white;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid rgba(0,0,0,0.1);
+  border-radius:5px;
+  text-align: center;
+}
+
+.step-container form {
+  width: 500px;
+  margin: 30px auto;
+  text-align:left;
+  max-width: 80%;
+}
+
+.step-container form.package-form {
+  width: 90% !important;
+  max-width: 100% !important
+}
+
+.step-card {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.step-card.active {
+  background: rgba(0, 122, 204,0.8);
+  color:white;
+}
+
+.form-error {
+  color: orangered;
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+
+input.select-package {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  z-index: 10000
+}
